@@ -1,0 +1,12 @@
+{
+  "name": "sound-box",
+  "version": "1.0.0",
+  "description": "Let's hear all sorts of sounds from sound box",
+  "main": "index.js",
+  "author": "Xun Ding",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "lodash": "^4.16.1"
+  }
+}

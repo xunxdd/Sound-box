@@ -1,0 +1,266 @@
+Australian Frogmouth
+Bassett hound barking
+Bear
+Bear attacking
+Bear growl
+Bee
+Bee buzzing
+Bird
+Bird chirps
+Bird songs
+Bird-chirp
+Bloodhound
+Bloodhound pack
+Bloodhounds yelping
+Blue Amazon macaw
+Canary trills
+Canary
+Capuchin monkey
+Cardinal
+Cat
+Cat meow
+Chicken
+Chicken coop
+Chicken laying egg
+Chickens
+Chicks-hatching
+Chimpanzee
+Cobra striking
+Cougar
+Cougar growl and snarl
+Cougar roar
+Cougar snarl
+Cow moo twice
+Cow
+Crow caw
+Crow
+Doberman pincher bark
+Dog bark
+Dog crying in pain
+Dog fight
+Dog growl
+Dog
+Duck
+Elephant trumpeting
+Elephant
+Finch
+Geese
+Goat
+Gorilla growl
+Gorilla snorts
+Hawk
+Herd sheep
+Hog grunts
+Horse
+Horse walking in water
+Horses walking on concrete
+Horses walking on dirt
+Jungle animal sounds
+Lamb
+Lapwing
+Leopard growl
+Lion growl and snarl
+Lion growl
+Lion roar
+Lion
+Lioness
+Longhorn steer bellow
+Macaw parrot
+Meadow Lark
+Mockingbird cry
+Monkey chatter
+Mosquito
+Mountain lion growl
+Nightingale
+Owl
+Pack of dogs
+Peacock
+Pig squeal
+Pigeons taking flight
+Pigs eating
+Pony whinny
+Puma hiss and growl
+Rattlesnake
+Rhinoceros
+Rooster
+Sea lion
+Seagulls
+Sheep ewe
+Sheep
+South American parrot
+Swarm of bees
+Swarm of mosquitoes
+Tiger greeting
+Tiger growl
+Vulture
+Woodpecker
+police
+alligator hiss
+alligator
+baboon monkey
+baboon
+bat
+beach
+bobcat
+burp
+bus door
+cackling fireplace
+camel
+car alarm
+car brake
+car crash
+car door
+chainsaw
+cheetah
+chipmunk
+chomp
+city traffic
+coyote
+crowd
+crowd boo
+crowd groan
+deep laugh
+dinosaur
+dinosaur footstep
+diving
+drone
+dry lava
+earthquake
+european dragon roaring and breathe fire
+evil laugh
+falling
+fast lava
+fish splashing
+foot steps
+forest
+gravel walk
+guinea pig shriek
+gulf
+hammer
+haunted house
+heart beat
+hippo
+hurricane
+hyena
+jackhammer
+jaguar
+key chimes
+keyboard
+lab
+lava
+lemur
+leopard
+lion cub
+lynx
+monster footsteps
+monster growl
+monster moan
+no mercy
+ocean
+panther
+penguin
+raccoon
+rhinos
+scream
+sea
+seal
+slurp
+snake hiss
+snake hit
+sneeze
+spider monkey
+storm thunder
+storm
+swamp
+t rex roar
+tennis
+traffic
+tree
+tyrannosaurus rex
+vampire bite
+werewolf howl
+whale clicks
+whale surfaces
+wind howl
+witch
+wolf
+zebra
+
+Sample utterances:
+GetFirstAnimalSoundsIntent	Tell me how {animalSoundSlot} sounds alike
+GetFirstAnimalSoundsIntent	How {animalSoundSlot} sounds alike
+animalNameOnlyIntent	{animalSoundSlot}
+animalNameOnlyIntent	Play {animalSoundSlot}
+animalNameOnlyIntent	Play the sound of {animalSoundSlot}
+soundCollageIntent	Play an animal sound collage
+soundCollageIntent	Sound collage
+AnimalSoundsListIntent	Sample animal sounds
+AnimalSoundsListIntent	List Sample animal sounds
+AnimalSoundsListIntent	Sample sounds
+AnimalSoundsListIntent	List Sample sounds
+AnimalSoundsListIntent	Sample
+AnimalSoundsListIntent	List Sample
+AnimalSoundsListIntent	Available sounds
+AnimalSoundsListIntent	List Available sounds
+AnimalSoundsListIntent	some sounds
+AnimalSoundsListIntent	List some sounds
+
+{
+  "intents": [
+    {
+      "intent": "GetFirstAnimalSoundsIntent",
+      "slots": [
+        {
+          "name": "animalSoundSlot",
+          "type": "LIST_OF_ANIMAL_SOUNDS"
+        }
+      ]
+    },
+    {
+      "intent": "animalNameOnlyIntent",
+      "slots": [
+        {
+          "name": "animalSoundSlot",
+          "type": "LIST_OF_ANIMAL_SOUNDS"
+        }
+      ]
+    },
+    {
+      "intent": "soundCollageIntent",
+      "slots": [
+        {
+          "name": "collageSizeSlot",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.RepeatIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.CancelIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.YesIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.NoIntent",
+      "slots": []
+    },
+    {
+      "intent": "AnimalSoundsListIntent",
+      "slots": []
+    }
+  ]
+}
