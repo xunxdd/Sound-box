@@ -1,6 +1,6 @@
 # Sound-box
 Maybe you would like to hear tiger roar, cat meow, the sound of winds and trees, or maybe you like to hear monsters laugh, the sound of dragon breathing fire, we have many. Just say: Alexa, ask sound box or Alexa ask sound box to play the sound of bird chirping.
-(./pic/pic1s.png =250x)
+
 # Video Demo
 <a href="https://youtu.be/dh-aH586ZrM">
 <img src="http://lunch-where.herokuapp.com/images/sound-box-med.jpg" alt="Alexa Sound Box Demo" style="width: 200px;"/>
@@ -25,7 +25,7 @@ Maybe you would like to hear tiger roar, cat meow, the sound of winds and trees,
  * Alexa: This is the sound of tiger greeting. [audio tiger]. Would you like to hear another sound?
  * User: No
  * Alexa: Hope you have enjoyed the sound box. Goodbye!
- ...
+ * ...
 
 
  Example 2:
@@ -36,11 +36,13 @@ Maybe you would like to hear tiger roar, cat meow, the sound of winds and trees,
  * Alexa: This is the sound of Chicks-hatching. [audio Chicks-hatching]. Would you like to hear another sound?
  * User: How about bird?
  * Alexa: This is the sound of bird chirping. [audio bird-chirping]. Would you like to hear another sound?
- ...
+ * ...
+
 
  * User: List Sample sounds
  * Alexa: Here is a sample list of sounds: Chicken coop, Cobra striking and Dog fight
- ...
+ * ...
+
 
  * User: Play sound collage
  * Alexa: [audio Chicken coop], [audio dinosaur] [audio fire]
