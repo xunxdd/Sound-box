@@ -49,8 +49,7 @@ Maybe you would like to hear tiger roar, cat meow, the sound of winds and trees,
 
  # Notes
 
- - The app is built using [alexa-server-app by Matt Kruse] (https://github.com/matt-kruse/alexa-app).
- - Server side code / food look up using google place api in node js
+ - The app is built using node.js and [alexa-server-app by Matt Kruse] (https://github.com/matt-kruse/alexa-app). 
  - Use SSML to include audio
 
 
