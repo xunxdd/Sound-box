@@ -2,7 +2,10 @@
 Maybe you would like to hear tiger roar, cat meow, the sound of winds and trees, or maybe you like to hear monsters laugh, the sound of dragon breathing fire, we have many. Just say: Alexa, ask sound box or Alexa ask sound box to play the sound of bird chirping.
 (./pic/pic1s.png =250x)
 # Video Demo
-[![Alexa Sound Box Demo](http://lunch-where.herokuapp.com/images/sound-box-med.jpg = 150x)](https://youtu.be/dh-aH586ZrM)
+<a href="https://youtu.be/dh-aH586ZrM">
+<img src="http://lunch-where.herokuapp.com/images/sound-box-med.jpg" alt="Alexa Sound Box Demo" style="width: 200px;"/>
+</a>
+[![Alexa Sound Box Demo](http://lunch-where.herokuapp.com/images/sound-box-med.jpg)](https://youtu.be/dh-aH586ZrM)
 
 # Installation
 
