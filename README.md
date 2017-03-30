@@ -23,26 +23,27 @@ Maybe you would like to hear tiger roar, cat meow, the sound of winds and trees,
  
  * User: Alexa ask sound box to play tiger sound
  * Alexa: This is the sound of tiger greeting. [audio tiger]. Would you like to hear another sound?
- User: No
- Alexa: Hope you have enjoyed the sound box. Goodbye!
+ * User: No
+ * Alexa: Hope you have enjoyed the sound box. Goodbye!
  ...
 
 
  Example 2:
- User: Alexa ask sound box to play the sound of monster
- Alexa: This is the sound of Monster laughing. [audio monster laughing]. Would you like to hear another sound?
- User: Yes
- Alexa: This is the sound of Chicks-hatching. [audio Chicks-hatching]. Would you like to hear another sound?
- User: How about bird?
- Alexa: This is the sound of bird chirping. [audio bird-chirping]. Would you like to hear another sound?
+ 
+ * User: Alexa ask sound box to play the sound of monster
+ * Alexa: This is the sound of Monster laughing. [audio monster laughing]. Would you like to hear another sound?
+ * User: Yes
+ * Alexa: This is the sound of Chicks-hatching. [audio Chicks-hatching]. Would you like to hear another sound?
+ * User: How about bird?
+ * Alexa: This is the sound of bird chirping. [audio bird-chirping]. Would you like to hear another sound?
  ...
 
- User: List Sample sounds
- Alexa: Here is a sample list of sounds: Chicken coop, Cobra striking and Dog fight
+ * User: List Sample sounds
+ * Alexa: Here is a sample list of sounds: Chicken coop, Cobra striking and Dog fight
  ...
 
- User: Play sound collage
- Alexa: [audio Chicken coop], [audio dinosaur] [audio fire]
+ * User: Play sound collage
+ * Alexa: [audio Chicken coop], [audio dinosaur] [audio fire]
 
  # Notes
 
